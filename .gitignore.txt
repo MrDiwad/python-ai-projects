@@ -1,0 +1,21 @@
+# --- BEZPIECZEŃSTWO ---
+.env
+.env.local
+config.py
+api_keys.txt
+
+# --- ŚMIECI PYTHONA ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ENV/
+
+# --- BAZY DANYCH I PLIKI LOKALNE ---
+chroma_db/
+*.db
+*.sqlite3
+
+# --- IDE ---
+.vscode/
+.idea/
